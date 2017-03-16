@@ -3,8 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="/github_stylesheet.css">
   </head>
+
   <body>
+    <h1>
+      <img class="octocat" src= "https://assets-cdn.github.com/pinned-octocat.svg"
+      height="32" width="32">
+      <input type="text" class="form" placeholder="Search GitHub">
+      <span id="links">Pull Requests &nbsp Issues &nbsp Gist</span>
+    </h1>
+
+    <img class="avatar" src= "<%= @repos[0]["owner"]["avatar_url"] %>" height="230"
+    width="230">
+    <p class="name"> <%= @info["name"] %> </p>
+    <p class="name"> <%= @info["login"] %> </p>
 
   </body>
+
+
 </html>

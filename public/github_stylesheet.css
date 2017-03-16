@@ -1,0 +1,60 @@
+.avatar {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  float: left;
+  margin-left: 100px;
+  border-radius: 7px
+}
+
+h1 {
+  margin: -10px -10px 25px -10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgba(255,255,255,0.75);
+  background-color: #24292e;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+input {
+  display: table-cell;
+  margin-top: -6px;
+  float: left;
+  width: 300px;
+  height: 30px;
+  margin-right: 10px;
+  font-size: 13px;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 10px;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 50px;
+  background-color: #3F4347;
+  border-radius: 2px;
+  border: 0
+}
+
+.octocat{
+  float: left;
+  filter: invert(100%);
+  position: relative;
+  margin-left: 100px;
+  margin-top: -8px;
+  padding-right: 10px
+
+}
+
+#links {
+  margin-left: 10px;
+}
+
+.name {
+  display: inline-block;
+  float: left;
+  position: relative;
+  vertical-align: bottom;
+
+}
